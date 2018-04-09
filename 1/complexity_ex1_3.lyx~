@@ -1,0 +1,1587 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\bar under
+חישוביות - תרגיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+יש להוכיח כי עבור שפה רגולרית 
+\lang english
+
+\begin_inset Formula $A_{1}$
+\end_inset
+
+
+\lang hebrew
+ ועבור שפה רגולרית 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+ נקבל ש
+\begin_inset Formula $A_{1}\bigcup A_{2}$
+\end_inset
+
+גם שפה רגולרית.
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+היות ו
+\begin_inset Formula $A_{1}$
+\end_inset
+
+היא שפה רגולרית קיים אוטומט סופי 
+\begin_inset Formula $M_{1}$
+\end_inset
+
+ שמכיר את 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+וכמו כן קיים אוטומט סופי 
+\begin_inset Formula $M_{2}$
+\end_inset
+
+שמכיר את 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+על מנת להוכיח את הנדרש נראה כי קיים אוטומט
+\end_layout
+
+\begin_layout Standard
+סופי 
+\begin_inset Formula $\text{M}$
+\end_inset
+
+שמכיר את 
+\begin_inset Formula $A_{1}\bigcup A_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר :
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M_{1}=(Q_{1,}\sum,\delta_{1},q_{1},F_{1})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M_{2}=(Q_{2},\sum,\delta_{2},q_{2},F_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $M$
+\end_inset
+
+אוטומט סופי אשר מוגדר בצורה הבאה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=(Q,\sum,\delta,q,F)$
+\end_inset
+
+ נראה ש
+\begin_inset Formula $M$
+\end_inset
+
+מכיר את 
+\begin_inset Formula $A_{1}\bigcup A_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפיכך נגדיר:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Q=\{(r_{1,}r_{2})|r_{1}\in Q_{1}\wedge r_{2}\in Q_{2}\}$
+\end_inset
+
+ שזהו סט קטרזי של כל המצבים מ
+\begin_inset Formula $Q_{1}$
+\end_inset
+
+ומ 
+\begin_inset Formula $Q_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\sum$
+\end_inset
+
+יהיה מוגדר בצורה הבאה:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $\sum$
+\end_inset
+
+ של 
+\begin_inset Formula $M_{1}$
+\end_inset
+
+ זהה ל 
+\begin_inset Formula $\sum$
+\end_inset
+
+ של 
+\begin_inset Formula $M_{2}$
+\end_inset
+
+ אזי השפה של 
+\begin_inset Formula $M$
+\end_inset
+
+ תהיה מוגדרת באופן זהה 
+\begin_inset Formula $\sum$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אם השפות של 
+\begin_inset Formula $M_{1}$
+\end_inset
+
+ו
+\begin_inset Formula $M_{2}$
+\end_inset
+
+שונות אזי נגדיר את השפה של 
+\begin_inset Formula $M$
+\end_inset
+
+כך 
+\begin_inset Formula $\sum=\sum_{1}\bigcup\sum_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+את פונקציית המעבר 
+\begin_inset Formula $\delta$
+\end_inset
+
+נגדיר כך, שעבור כל 
+\begin_inset Formula $(r_{1,}r_{2})\in Q$
+\end_inset
+
+ועבור כל 
+\begin_inset Formula $a\in\sum$
+\end_inset
+
+מתקיים 
+\begin_inset Formula $\delta((r_{1},r_{2}),a)=(\delta_{1}(r_{1},a),\delta_{2}(r_{2},a))$
+\end_inset
+
+ומכאן אנו נקבל ש
+\begin_inset Formula $\delta$
+\end_inset
+
+אכן מקבלת מצב מ
+\begin_inset Formula $M$
+\end_inset
+
+עבור כל קלט 
+\begin_inset Formula $r_{1,}r_{2}$
+\end_inset
+
+ואות 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+נגדיר את 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+כזוג 
+\begin_inset Formula $(q_{1,}q_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+ו 
+\begin_inset Formula $F$
+\end_inset
+
+הוא קבוצה של זוגות בה כל פריט מקבל מצב של 
+\begin_inset Formula $M_{1}$
+\end_inset
+
+ או של 
+\begin_inset Formula $M_{2}$
+\end_inset
+
+ומוגדר כך 
+\begin_inset Formula $F=\{(r_{1},r_{2})|r_{1}\in F_{1}\text{\hspace{1em}}or\hspace{1em}r_{2}\in F_{2}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת, יש להראות כי לכל 
+\begin_inset Formula $w\in\sum^{*}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $w\in L(M)$
+\end_inset
+
+ אמ"מ 
+\begin_inset Formula $w\in L(M_{1})\bigcup L(M_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נביט על הריצה של 
+\begin_inset Formula $M$
+\end_inset
+
+ על 
+\begin_inset Formula $w$
+\end_inset
+
+, נסמן 
+\begin_inset Formula $w=w_{1}...w_{n}\text{\hspace{1em}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומצבי ריצה: 
+\begin_inset Formula $q_{0}=r_{0},...,r_{n}\ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $0\leqq i\leqq n$
+\end_inset
+
+ 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ הוא מצב של 
+\begin_inset Formula $M$
+\end_inset
+
+.
+ נפרש את 
+\begin_inset Formula $r_{0}\dots r_{n}$
+\end_inset
+
+ בתור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+סדרות:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{0}^{1}\dots.r_{n}^{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{0}^{2}\dots.r_{n}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+כך שהראשונה המצב בתוך 
+\begin_inset Formula $Q_{1}$
+\end_inset
+
+של כל הזוגות 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ והשניייה הוא המצב בתוך 
+\begin_inset Formula $Q_{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+מכאן נקבל כי, 
+\begin_inset Formula $r_{0}^{1}=q_{0}^{1}$
+\end_inset
+
+ וגם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $r_{0}^{2}=q_{0}^{2}$
+\end_inset
+
+ועל כן גן לפי הגדרת 
+\begin_inset Formula $\delta$
+\end_inset
+
+לכל 
+\begin_inset Formula $0\leqq i\leqq n$
+\end_inset
+
+מתקיים:
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\delta_{1}(r_{i-1}^{1},w_{i})=r_{i}^{1},\hspace{1em}\delta_{2}(r_{i-1}^{2},w_{i})=r_{i}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+לכן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שני הסדרות הנ"ל הן ריצות של 
+\begin_inset Formula $M_{1}$
+\end_inset
+
+על 
+\begin_inset Formula $w$
+\end_inset
+
+ושל 
+\begin_inset Formula $M_{2}$
+\end_inset
+
+על 
+\begin_inset Formula $w$
+\end_inset
+
+ בהתאמה.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $w\in L(M)$
+\end_inset
+
+אז הסדרה 
+\begin_inset Formula $\{r_{i}\}$
+\end_inset
+
+מסתיימת במצב 
+\begin_inset Formula $r_{n}\in F$
+\end_inset
+
+ משמע, מסתיימת בזוג 
+\begin_inset Formula $q_{1,}q_{2}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $q_{1}\in F_{1}\hspace{1em}or\hspace{1em}q_{2}\in F_{2}$
+\end_inset
+
+ .כלומר לפי הגדרת הסדרות 
+\begin_inset Formula $r_{i}^{2}\hspace{1em}and\hspace{1em}r_{i}^{1}$
+\end_inset
+
+ לפחות אחת מהן מתאימה לריצה המקבלת .
+ וניתן להסיק כי 
+\begin_inset Formula $w\in L(M_{1})\hspace{1em}or\hspace{1em}w\in L(M_{2})$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+מכאן אנו מקבלים כי קיים אוטומוט סופי 
+\begin_inset Formula $M$
+\end_inset
+
+ אשר מכיר את 
+\begin_inset Formula $A_{1}\bigcup A_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\bar under
+חישוביות - תרגיל 
+\numeric on
+1
+\numeric off
+ - שאלה 
+\numeric on
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סעיף 
+\numeric on
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הראינו בשיעור ששפה היא רגולרית אם ורק קם קיים אוטומט סופי אשר מכיר אותו.
+ לכן בכדי להוכיח שהשפה 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+היא רגולרית יש לבנות אוטומט 
+\begin_inset Formula $M$
+\end_inset
+
+אשר מכירה.
+\end_layout
+
+\begin_layout Standard
+נגדיר אוטומט עם מצב יחיד שאינו מקבל\SpecialChar endofsentence
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\xymatrix{\ar[r] & *++[o][F=]{q_{o}}\ar@(ul,ur)^{\epsilon}}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והיות והראינו קיימות של אוטומט אשר מכיר את השפה\SpecialChar endofsentence
+ סיימנו\SpecialChar endofsentence
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+: 
+\end_layout
+
+\begin_layout Standard
+על מנת להראות שעבור כל מילה
+\begin_inset Formula $\gamma\in\sum^{*}$
+\end_inset
+
+ השפה 
+\begin_inset Formula ${\gamma}$
+\end_inset
+
+היא רגולרית נבנה אוטומט שמקבל את המילה 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ראשית, נגדיר כ 
+\begin_inset Formula $N=the\hspace{1em}len\hspace{1em}of\hspace{1em}\gamma$
+\end_inset
+
+ )נוכל לעשות זאת כי מהגדרתה של מילה היא סופית(
+\end_layout
+
+\begin_layout Standard
+יהי אוטומט 
+\begin_inset Formula $M=(Q,\sum,\delta,q,F)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כך ש
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Q=\{q_{1}\ldots q_{N+1}\}$
+\end_inset
+
+ שזהו מספר המצבים של 
+\begin_inset Formula $q$
+\end_inset
+
+שמוגדר לפי האורך של 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\sum=\{a\in\sum::a\in\gamma\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+את פונקציית המעברים 
+\begin_inset Formula $\delta$
+\end_inset
+
+נגדיר כך, שעבור כל זוג :
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula $(Q,a):\{a\in\sum\}$
+\end_inset
+
+
+\begin_inset Formula $\begin{cases}
+q_{i_{+1}} & a_{i}=\gamma_{i}(\text{the letter in the i place of }\gamma)\\
+sink & else
+\end{cases}$
+\end_inset
+
+
+\begin_inset Formula $\delta(q_{i},a)_{1\leqq i\leqq n}=$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+נגדיר את 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+כמצב המקבל את האות הראשונה ב
+\begin_inset Formula $\gamma$
+\end_inset
+
+כמתואר בפונקציית המעברים
+\end_layout
+
+\begin_layout Enumerate
+ו 
+\begin_inset Formula $F$
+\end_inset
+
+הוא מצב המקבל את האות האחרונה של 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ומעביר לכיור כל קלט נוסף.
+\end_layout
+
+\begin_layout Standard
+במעבר על אוטומט 
+\begin_inset Formula $M$
+\end_inset
+
+ אשר הגדרנו נראה שעבור כל 
+\begin_inset Formula $\gamma\in\sum^{*}$
+\end_inset
+
+ האוטומט מקבלה.
+\end_layout
+
+\begin_layout Standard
+אם נניח בשלילה שלא כך, אזי קיים מצב 
+\begin_inset Formula $q_{k}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $0\leqq k\leqq N+1$
+\end_inset
+
+ אשר בו
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta(q_{k},a)=sink$
+\end_inset
+
+ אזי מהגדרה 
+\begin_inset Formula $\gamma_{k}\ne k$
+\end_inset
+
+ בסתירה לכך שהקלט הוא המילה 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סעיף 
+\numeric on
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+עלינו להוכיח כי כל שפה סופית 
+\begin_inset Formula $\sum$
+\end_inset
+
+היא 
+\begin_inset Formula $REG$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכיח זאת באינדוקציה בהסתמכות על מה שהוכחנו עד כה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענת האינדוקציה:
+\end_layout
+
+\begin_layout Standard
+כל שפה סופית 
+\begin_inset Formula $\sum$
+\end_inset
+
+היא 
+\begin_inset Formula $REG$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוכיח על באינדוקציה על גודל העוצמה )הסופית( של 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס :
+\bar default
+ עבור שפה 
+\begin_inset Formula $\{\sum^{*}:|\sum^{*}|=0\}$
+\end_inset
+
+הוכחנו בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי עבור השפה 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+היא רגולרית.)וגם עבור השפה בעלת עוצמה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוכחנו בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הנחה : 
+\bar default
+נניח שהטענה מתקיימת עבור כל שפה 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+שעוצמתה 
+\begin_inset Formula $k$
+\end_inset
+
+ונוכיח עבור שפה שעוצמתה 
+\begin_inset Formula $k+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה :
+\end_layout
+
+\begin_layout Standard
+יהי שפה 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+שעוצמתה היא 
+\begin_inset Formula $k+1$
+\end_inset
+
+אזי נוכל להציגה בצורה הבאה.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sum^{*}=\{\sum^{*1}\bigcup\sum^{*k}::\forall\lambda\in\sum^{*k}\lambda\notin\sum^{*1}\hspace{1em}and\hspace{1em}\sum^{*1}\subset\sum^{*},\sum^{*k}\subset\sum^{*}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $\sum^{*1}$
+\end_inset
+
+הוכחנו שהיא רגולרית בסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועבור 
+\begin_inset Formula $\sum^{*k}$
+\end_inset
+
+ אנו יודעים השפה רגולרית מהנחת האינדוקציה.
+\end_layout
+
+\begin_layout Standard
+מכאן קיבלנו ש
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+השפות הינם רגולריות, היות ומהגדרתם 
+\begin_inset Formula $\sum^{*}=\sum^{*1}\bigcup\sum^{*k}$
+\end_inset
+
+ והוכחנו בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמאיחוד שפות רגולריות מתקבלת שפה רגולרית גם כן.
+\end_layout
+
+\begin_layout Standard
+סיימנו.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סעיף 
+\numeric on
+1
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $DFA$
+\end_inset
+
+ 
+\begin_inset Formula $A=<Q_{A},\sum,\delta_{A},q_{0}^{A},F_{A}>$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $|Q_{A}|=\{n::\hspace{1em}n\in N\}$
+\end_inset
+
+אזי קיימים 
+\begin_inset Formula $\{q_{0}...q_{n-1}\}$
+\end_inset
+
+מצבים.
+\end_layout
+
+\begin_layout Standard
+נוכיח באינדוקציה שקיימת מילה 
+\begin_inset Formula $w$
+\end_inset
+
+ש
+\begin_inset Formula $A$
+\end_inset
+
+ מקבלה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n=1$
+\end_inset
+
+
+\bar default
+ אזי קיים רק 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+והיות 
+\begin_inset Formula $|F|>0$
+\end_inset
+
+כי אם לא כן 
+\begin_inset Formula $A$
+\end_inset
+
+אינו אוטומוט חוקי נסיק כי 
+\begin_inset Formula $q_{0}\in F$
+\end_inset
+
+והיות וקיים רק מצב אחד הוא חייב להיות לעצמו.
+\end_layout
+
+\begin_layout Standard
+ומכאן נסיק שקיימת אות בשפה 
+\begin_inset Formula $\sum$
+\end_inset
+
+ש
+\begin_inset Formula $q_{0}$
+\end_inset
+
+מעביר לעצמו.
+ וסיימנו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טענה:
+\end_layout
+
+\begin_layout Standard
+נטען כי עבור כל 
+\begin_inset Formula $|Q_{A}|=\text{k}$
+\end_inset
+
+מתקיים שקיימת מילה 
+\begin_inset Formula $w$
+\end_inset
+
+ש
+\begin_inset Formula $A$
+\end_inset
+
+מקבלה.
+ ונוכיח עבור 
+\begin_inset Formula $|Q_{A}|=\text{k+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נחלק למקרים,
+\end_layout
+
+\begin_layout Standard
+מקרה ראשון: 
+\end_layout
+
+\begin_layout Standard
+לאוטומט 
+\begin_inset Formula $A::\exists q_{*}\in F_{A},\delta(q_{k},a)=q_{*}||k<n-1\text{ and  }a\in\sum^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ועבור אוטומט שכזה נוכל להוריד מצב 
+\begin_inset Formula $q_{k-1}$
+\end_inset
+
+ ונקבל שהטענה מתקיימת מהנחת האינדוקציה היות וקיימת מילה ש
+\begin_inset Formula $A$
+\end_inset
+
+מקבלה שאורכה קטן מ
+\begin_inset Formula $\text{n-1 }$
+\end_inset
+
+כנדררש
+\end_layout
+
+\begin_layout Standard
+מקרה שני:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+ הוא אוטומט בו רק המצב ה
+\begin_inset Formula $q_{n-1}\in F_{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבנה אוטומט חדש 
+\begin_inset Formula $<Q_{A}^{*},\sum,\delta_{A},q_{0}^{A},F_{A}^{*}>$
+\end_inset
+
+=
+\begin_inset Formula $A^{*}$
+\end_inset
+
+ המוגדר באופן הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q_{A}^{*}=Q_{A}\backslash q_{k-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{A}^{*}=q_{k-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נשים לב כי עוצמת 
+\begin_inset Formula $|Q_{A}^{*}|=\text{k-1}$
+\end_inset
+
+ ומבנייתו האוטומט חוקי מחוקייתו של 
+\begin_inset Formula $A$
+\end_inset
+
+ולפיכך מהנחת האינדוקצייה קיימת מילה 
+\begin_inset Formula $w$
+\end_inset
+
+ש
+\begin_inset Formula $A$
+\end_inset
+
+מקבלה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סעיף 
+\numeric on
+2
+\end_layout
+
+\end_body
+\end_document
