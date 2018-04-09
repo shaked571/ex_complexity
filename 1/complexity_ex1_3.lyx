@@ -1492,7 +1492,7 @@ sink & else
 
 \begin_layout Standard
 לאוטומט 
-\begin_inset Formula $A::\exists q_{*}\in F_{A},\delta(q_{k},a)=q_{*}||k<n-1\text{ and  }a\in\sum^{*}$
+\begin_inset Formula $A::\exists q_{*}\in F_{A},\delta(q_{k},a)=q_{*}||k<n-1\text{ and }a\in\sum^{*}$
 \end_inset
 
 
@@ -1586,6 +1586,14 @@ sink & else
 \begin_layout Standard
 עבור ההוכחה נגדיר שפה חדשה 
 \begin_inset Formula $L^{,}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המוגדרת כ 
+\begin_inset Formula $(L\text{(A)\textbackslash L(B))}\bigcup(L(B)\backslash L(A))$
 \end_inset
 
 

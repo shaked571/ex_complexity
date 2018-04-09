@@ -1583,5 +1583,13 @@ sink & else
 2
 \end_layout
 
+\begin_layout Standard
+עבור ההוכחה נגדיר שפה חדשה 
+\begin_inset Formula $L^{,}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
